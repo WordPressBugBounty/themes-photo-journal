@@ -149,7 +149,7 @@ if ( ! function_exists( 'photo_journal_entry_header' ) ) :
 		// Get the author name; wrap it in a link.
 		printf(
 			/* translators: %s: post author */
-			'<span class="author vcard"><span class="author-label screen-reader-text">By</span>' . photo_journal_get_svg( array( 'icon' => 'user-o' ) ) . '<a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . get_the_author() . '</a></span>'
+			'<span class="author vcard"><span class="author-label screen-reader-text">By</span>' . photo_journal_get_svg( array( 'icon' => 'user-o' ) ) . '<a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 		);
 
 		photo_journal_entry_posted_on();
@@ -285,7 +285,7 @@ function photo_journal_entry_date_author() {
 	$byline = sprintf(
 		/* translators: %s: post author */
 		__( '<span class="author-label screen-reader-text">By </span>%s', 'photo-journal' ),
-		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . get_the_author() . '</a></span>'
+		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);
 
 	$meta .= sprintf( '<span class="byline"><span class="meta-sep">.</span>%1$s</span>',
