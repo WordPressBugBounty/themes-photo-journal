@@ -1,8 +1,8 @@
 === Photo Journal ===
 Contributors: catchthemes
 Tags: one-column, two-columns, right-sidebar, grid-layout, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets,  microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, theme-options, translation-ready, blog, photography, portfolio
-Requires at least: 5.6
-Tested up to: 6.7
+Requires at least: 5.9
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -42,6 +42,11 @@ You can check our Theme Demo at https://catchthemes.com/demo/photo-journal/
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 1.6 (Released: June 02, 2025) =
+* Added: Bluesky, Threads and X.com icon
+* Bug Fixed: Editor block issue with customer
+* Updated: WordPress 6.8 ready
 
 = 1.5.3 (Released: March 17, 2025) =
 * Bug Fixed: Escaping author display name
@@ -128,7 +133,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-Photo Journal WordPress Theme, Copyright 2012-2023 Catchthemes.com
+Photo Journal WordPress Theme, Copyright 2012-2025 Catchthemes.com
 Photo Journal is distributed under the terms of the GNU GPL
 
 == Resources ==

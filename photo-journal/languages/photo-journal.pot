@@ -1,11 +1,11 @@
-# Copyright (C) 2012-2022 Catch Themes
+# Copyright (C) 2012-2025 Catch Themes
 # This file is distributed under the GNU General Public License, version 3 (GPLv3).
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Photo Journal\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2025-03-17 22:22+0545\n"
+"POT-Creation-Date: 2025-06-02 11:23+0545\n"
 "PO-Revision-Date: 2016-12-07 01:05-0500\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -14,9 +14,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.5\n"
-"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
-"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "X-Textdomain-Support: yes\n"
@@ -219,26 +219,22 @@ msgid "Theme Instructions"
 msgstr ""
 
 #: ../inc/about.php:51
-msgid "Compare free Vs Pro"
-msgstr ""
-
-#: ../inc/about.php:53
 msgid "Upgrade to pro"
 msgstr ""
 
-#: ../inc/about.php:63
+#: ../inc/about.php:61
 msgid "Secondary menu"
 msgstr ""
 
-#: ../inc/about.php:64
+#: ../inc/about.php:62
 msgid "About"
 msgstr ""
 
-#: ../inc/about.php:66
+#: ../inc/about.php:64
 msgid "Free Vs Pro"
 msgstr ""
 
-#: ../inc/about.php:68 ../inc/customizer/custom-controls.php:31
+#: ../inc/about.php:66 ../inc/customizer/custom-controls.php:31
 msgid "Changelog"
 msgstr ""
 
@@ -1089,11 +1085,11 @@ msgstr ""
 msgid "Next Slide"
 msgstr ""
 
-#: ../inc/icon-functions.php:37
+#: ../inc/icon-functions.php:40
 msgid "Please define default parameters in the form of an array."
 msgstr ""
 
-#: ../inc/icon-functions.php:42
+#: ../inc/icon-functions.php:45
 msgid "Please define an SVG icon filename."
 msgstr ""
 
