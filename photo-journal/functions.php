@@ -409,7 +409,7 @@ function photo_journal_fonts_url() {
 		}
 		// Load google font locally.
 		require_once get_theme_file_path( 'inc/wptt-webfont-loader.php' );
-			
+
 		return esc_url_raw( wptt_get_webfont_url( $fonts_url ) );
 }
 endif;
@@ -440,10 +440,6 @@ function photo_journal_scripts() {
 
 	// Theme block stylesheet.
 	wp_enqueue_style( 'photo-journal-block-style', get_theme_file_uri( '/assets/css/blocks.css' ), array( 'photo-journal-style' ), '1.0' );
-
-	// Load the html5 shiv.
-	wp_enqueue_script( 'photo-journal-html5', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/js/html5.min.js', array(), '3.7.3' );
-	wp_script_add_data( 'photo-journal-html5', 'conditional', 'lt IE 9' );
 
 	wp_enqueue_script( 'photo-journal-skip-link-focus-fix', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'assets/js/skip-link-focus-fix.min.js', array(), '20181115', true );
 

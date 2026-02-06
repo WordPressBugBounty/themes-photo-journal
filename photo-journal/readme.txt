@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: one-column, two-columns, right-sidebar, grid-layout, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets,  microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, theme-options, translation-ready, blog, photography, portfolio
 Requires at least: 5.9
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -42,6 +42,13 @@ You can check our Theme Demo at https://catchthemes.com/demo/photo-journal/
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 1.6.2 (Released: December 10, 2025) =
+* Updated: Version due to issue in WordPress.org trac ticket
+
+= 1.6.1 (Released: December 10, 2025) =
+* Bug Fixed: Deprecated Function WP_Dependencies-add_data() warning after WordPress update 6.9
+* Updated: WordPress 6.9 ready
 
 = 1.6 (Released: June 02, 2025) =
 * Added: Bluesky, Threads and X.com icon
